@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 500px;
+    height: 800px;
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 0;
+}
+
+.input .inputList {
+    width: 90%;
+    height: 30px;
+    cursor: text;
+}
+
+.input .inputBtn {
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.showList {
+    width: 100%;
+    padding: 0;
+}
+.delBtn {
+    background-color: orange;
+    border: 1px solid rgb(212, 151, 128);
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
